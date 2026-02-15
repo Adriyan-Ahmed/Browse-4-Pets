@@ -7,3 +7,12 @@
   font-family: "Sora", sans-serif;
   font-style: normal;
 }
+
+.primary-btn {
+    padding: 10px 30px;
+    font-weight: 500;
+    border: 1px #FFDC26;
+    background-color: #FFDC26;
+    border-radius: 8px;
+    font-size: 20px;
+}
