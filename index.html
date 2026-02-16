@@ -21,6 +21,9 @@
     <!-- CSS Styles file Integrate -->
     <link rel="stylesheet" href="./styles.css">
 
+    <!-- Font Awesome Integrate -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
 </head>
 
 <body>
@@ -381,7 +384,8 @@
                 <h2 class="text-2xl md:text-4xl adlam-display mb-8 pl-5 lg:pl-0">Everyday Low Price</h2>
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-5 gap-5 px-5 lg:px-0">
-                <div class=" relative lg:col-span-3 md:flex items-center justify-center bg-gradient-to-br from-[#F8CCFB] to-[#ACD2FD] rounded-xl max-h-[480px]">
+                <div
+                    class=" relative lg:col-span-3 md:flex items-center justify-center bg-gradient-to-br from-[#F8CCFB] to-[#ACD2FD] rounded-xl max-h-[480px]">
                     <div class="space-y-4 pl-8 md:pl-14 lg:pl-5 xl:pl-16 flex-1 pt-8 pb-64 md:pb-0">
                         <p class="hidden md:flex sora text-xl ">Under Price</p>
                         <h3 class="text-2xl md:text-[32px] adlam-display font-bold">Pet Grooming Mitt</h3>
@@ -389,22 +393,66 @@
                         <h1 class="text-3xl md:text-5xl adlam-display ">$7.99</h1>
                     </div>
                     <div class="flex-1">
-                        <img class=" absolute md:relative bottom-0 right-0 max-h-[320px] md:max-h-[480px]" src="./c1-assets/cute-dog-mid.png" alt="">
+                        <img class=" absolute md:relative bottom-0 right-0 max-h-[320px] md:max-h-[480px]"
+                            src="./c1-assets/cute-dog-mid.png" alt="">
                     </div>
                 </div>
-                <div class="lg:col-span-2 relative bg-gradient-to-br from-[#FFF9F4] to-[#F9DF8A] rounded-xl md:flex items-center lg:block">
+                <div
+                    class="lg:col-span-2 relative bg-gradient-to-br from-[#FFF9F4] to-[#F9DF8A] rounded-xl md:flex items-center lg:block">
                     <div class=" pt-14 pl-8 md:pl-14 lg:pl-5 xl:pl-10 pb-64 md:pb-0 flex-1 space-y-4">
                         <h3 class="text-2xl md:text-[32px] adlam-display font-bold">T-Shirt for Dogs</h3>
                         <h1 class="text-3xl md:text-5xl adlam-display text-[#FFDC26] ">$7.99</h1>
                     </div>
                     <div class="flex-1">
-                        <img class="  absolute md:relative lg:absolute bottom-0 right-0 max-h-[300px] md:max-h-max lg:max-h-[280px] xl:max-h-max" src="./c1-assets/cute-pet-mid.png" alt="">
+                        <img class="  absolute md:relative lg:absolute bottom-0 right-0 max-h-[300px] md:max-h-max lg:max-h-[280px] xl:max-h-max"
+                            src="./c1-assets/cute-pet-mid.png" alt="">
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer class="bg-[#ffdb2671] mt-[500px] md:mt-[400px] relative pt-[300px]">
+        <section class="px-5 xl:px-0 absolute w-full -top-3/5 md:-top-2/7">
+            <div class="flex flex-col md:flex-row items-center justify-center max-w-[1320px] mx-auto  bg-[#FFF9F4] rounded-xl py-8">
+                <div class="md:w-full">
+                    <img class="mx-auto" src="./c1-assets/cute-pet-mid.png" alt="">
+                </div>
+                <div class=" space-y-3 md:space-y-7 px-6 md:w-full">
+                    <h3 class="text-2xl md:text-[32px] adlam-display font-bold
+                ">Get Pawsome News!</h3>
+                    <p class="text-base md:text-xl text-gray-800 tracking-wide md:leading-8 sora ">Exclusive training
+                        tips, ticks, product deals and more.</p>
+                    <form class="space-y-7">
+                        <input class="input block border-none" placeholder="Enter Email...." type="email" name="email" id="email">
+                        <input class="primary-btn sora" type="submit" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="grid grid-cols-1 md:grid-cols-3 max-w-[1320px] mx-auto px-5 py-10 md:py-32 md:justify-center items-center gap-7">
+            <aside class="space-y-5">
+                <div class="flex items-center gap-3">
+                    <img src="./c1-assets/logo-footer.png" alt="">
+                    <h1 class="text-[26px] hidden sm:flex">Browse<span class="text-[#FFDC26]">4</span>Pets</h1>
+                </div>
+                <p class="text-base md:text-xl text-gray-800 tracking-wide md:leading-8 sora">Discover a world of treats, toys, and essentials handpicked for your furry friends.</p>
+            </aside>
+            <nav class="sora h-full flex flex-col gap-3 md:gap-0 md:justify-between md:items-center">
+                <a class="text-base md:text-xl font-medium block" href="">Find a pet</a>
+                <a class="text-base md:text-xl font-medium block" href="">Breeds</a>
+                <a class="text-base md:text-xl font-medium block" href="">Contact us</a>
+            </nav>
+            <div class="space-y-6">
+                <h6 class="sora text-base md:text-xl font-bold ">Follow Us</h6>
+                <div class="flex items-center gap-4">
+                    <i class="fa-brands text-3xl fa-facebook"></i>
+                    <i class="fa-brands text-3xl fa-instagram"></i>
+                    <i class="fa-brands text-3xl fa-linkedin"></i>
+                    <i class="fa-brands text-3xl fa-youtube"></i>
+                </div>
+            </div>
+        </section>
+    </footer>
 </body>
 
 </html>
